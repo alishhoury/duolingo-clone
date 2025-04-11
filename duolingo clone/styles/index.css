@@ -1,0 +1,197 @@
+header {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 7.8vh;
+    border-bottom: 1px solid #ccc;
+}
+
+.hero {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    width : 100vw;  
+    height: 100vh;
+    position: relative;
+}
+.button-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    bottom: 20%;
+
+
+} 
+.hero button{
+    height: 5.9vh;
+    width: 320px;
+    border: #c5c4c4 solid 1px;
+    padding: 10px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 1.1rem;
+    margin: 5px;
+    font-weight: bold;
+}
+.hero-button1{
+    background-color: #0edb15; 
+    color: white;
+    
+}
+.hero-button2{
+    background-color: #ffffff; 
+    color: #2c49cc;
+    width: 320px;
+    font-size: 1rem;
+}
+.hero h1{
+    font-size: clamp(1.5rem, 8vw, 2.5rem);
+    color: #333;
+    text-align: center;
+    position: absolute;
+    top: 45%;
+    transform: translateY(-50%);
+}
+.section-2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 2rem 1rem;
+    min-height: 100vh;
+    gap: 2rem;
+}
+
+.section-2 h2 {
+    font-size: 3rem;
+    color: #2db820;
+}
+
+.section-2 p {
+    font-size: 1.1rem;
+    line-height: 1.5;
+    color: #4b4b4b;
+    max-width: 90%;
+}
+.section-3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 2rem 1rem;
+    min-height: 100vh;
+    gap: 2rem;
+}
+.section-3 h2 {
+    font-size: 2.5rem;
+    color: #2db820;
+}
+.section-3 p {
+    font-size: 1.2rem;
+    line-height: 1.5;
+    color: #4b4b4b;
+    max-width: 90%;
+}
+.section-4{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 2rem 1rem;
+    min-height: 100vh;
+    gap: 2rem;
+
+}
+.section-4 h2 {
+    font-size: 2.5rem;
+    color: #2db820;
+}
+.section-4 p {
+    font-size: 1.2rem;
+    line-height: 1.5;
+    color: #4b4b4b;
+    max-width: 90%;
+}
+.section-5{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 2rem 1rem;
+    min-height: 100vh;
+    gap: 2rem;
+
+}
+.section-5 h2 {
+    font-size: 2.5rem;
+    color: #2db820;
+}
+.section-5 p {
+    font-size: 1.2rem;
+    line-height: 1.5;
+    color: #4b4b4b;
+    max-width: 90%;
+}
+
+.section-6{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 2rem 1rem;
+    min-height: 100vh;
+    gap: 2rem;
+    background-color: rgba(120, 166, 236, 0.247);
+}
+.section-6 h2 {
+    font-size: 2.5rem;
+    color: #3720b8;
+}
+.button-appstore img,.button-playstore img{
+    width: 100%;
+    height: 100%;
+    border-radius: 8px;
+    object-fit: cover;
+    
+}
+.button-appstore,.button-playstore{
+    width: 200px;
+    height: 60px;
+    background: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 8px;
+}
+.button-containersection6{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    margin-top: 2rem;
+}
+.section-7{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 2rem 1rem;
+    min-height: 100vh;
+    gap: 2rem;
+    background-color: rgba(11, 3, 82, 0.911);
+}
+.section-7 img{
+    width: 90%;
+}
+.superduo-button{
+    width: 80vw;
+    height: 50px;
+    background: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 8px;
+    margin-top: 2rem;
+    font-size: 1.2rem;
+}
