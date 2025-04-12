@@ -25,26 +25,25 @@ header {
 
 } 
 .hero button{
-    height: 5.9vh;
+    height: 7.5vh;
     width: 320px;
-    border: #c5c4c4 solid 1px;
-    padding: 10px 20px;
     border-radius: 10px;
     cursor: pointer;
-    font-size: 1.1rem;
     margin: 5px;
     font-weight: bold;
+    border: #c5c4c4c4 solid 1px;
+    box-shadow: 0px 0px 5px rgba(99, 95, 95, 0.664);
 }
 .hero-button1{
-    background-color: #0edb15; 
+    background-color: #15ce1c; 
     color: white;
+    font-size: 1rem;
     
 }
 .hero-button2{
     background-color: #ffffff; 
-    color: #2c49cc;
-    width: 320px;
-    font-size: 1rem;
+    color: #2caccc;
+    font-size: 0.8rem;
 }
 .hero h1{
     font-size: clamp(1.5rem, 8vw, 2.5rem);
@@ -54,105 +53,44 @@ header {
     top: 45%;
     transform: translateY(-50%);
 }
-.section-2 {
+.section-2,.section-3, .section-4, .section-5, .section-6, .section-7{
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
-    padding: 2rem 1rem;
     min-height: 100vh;
     gap: 2rem;
+    width: 100vw;
 }
 
-.section-2 h2 {
-    font-size: 3rem;
+h2{
+    font-size: 2.5rem;
     color: #2db820;
+    
 }
-
-.section-2 p {
+p {
     font-size: 1.1rem;
     line-height: 1.5;
     color: #4b4b4b;
     max-width: 90%;
 }
-.section-3 {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    padding: 2rem 1rem;
-    min-height: 100vh;
-    gap: 2rem;
+.section-2 h2 {
+    font-size: 3rem;
 }
-.section-3 h2 {
-    font-size: 2.5rem;
-    color: #2db820;
-}
-.section-3 p {
-    font-size: 1.2rem;
-    line-height: 1.5;
-    color: #4b4b4b;
-    max-width: 90%;
-}
-.section-4{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    padding: 2rem 1rem;
-    min-height: 100vh;
-    gap: 2rem;
 
-}
-.section-4 h2 {
-    font-size: 2.5rem;
-    color: #2db820;
-}
-.section-4 p {
-    font-size: 1.2rem;
-    line-height: 1.5;
-    color: #4b4b4b;
-    max-width: 90%;
-}
-.section-5{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    padding: 2rem 1rem;
-    min-height: 100vh;
-    gap: 2rem;
-
-}
 .section-5 h2 {
-    font-size: 2.5rem;
-    color: #2db820;
-}
-.section-5 p {
-    font-size: 1.2rem;
-    line-height: 1.5;
-    color: #4b4b4b;
-    max-width: 90%;
+    font-size: 2.6rem;
 }
 
 .section-6{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    padding: 2rem 1rem;
-    min-height: 100vh;
-    gap: 2rem;
     background-color: rgba(120, 166, 236, 0.247);
 }
 .section-6 h2 {
-    font-size: 2.5rem;
     color: #3720b8;
 }
 .button-appstore img,.button-playstore img{
     width: 100%;
     height: 100%;
-    border-radius: 8px;
     object-fit: cover;
     
 }
@@ -164,22 +102,15 @@ header {
     cursor: pointer;
     border-radius: 8px;
 }
-.button-containersection6{
+.button-container-section6{
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 1rem;
+    gap: 1.5rem;
     margin-top: 2rem;
 }
 .section-7{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
     justify-content: center;
-    text-align: center;
-    padding: 2rem 1rem;
-    min-height: 100vh;
-    gap: 2rem;
     background-color: rgba(11, 3, 82, 0.911);
 }
 .section-7 img{

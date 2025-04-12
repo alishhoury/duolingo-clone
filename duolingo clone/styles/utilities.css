@@ -16,3 +16,9 @@ html{
        display: block;
     }
    }
+   /* default screen mobile view
+      view2:770px ==> 1079
+        changes:addition of language nav bar, download buttons are in a column 
+      view3: greater than 1080px 
+        changes: addition of language on hover list overall layout changes
+      */
