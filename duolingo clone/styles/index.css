@@ -37,13 +37,14 @@ header {
 .hero-button1{
     background-color: #15ce1c; 
     color: white;
-    font-size: 1rem;
+    font-size: clamp(1rem, 5vw, 1.5rem);
     
 }
 .hero-button2{
     background-color: #ffffff; 
     color: #2caccc;
-    font-size: 0.8rem;
+    font-size: clamp(1rem, 2vw, 1.1rem);
+    
 }
 .hero h1{
     font-size: clamp(1.5rem, 8vw, 2.5rem);
@@ -64,22 +65,24 @@ header {
 }
 
 h2{
-    font-size: 2.5rem;
+    font-size: clamp(1.5rem, 5vw, 3rem);
     color: #2db820;
     
 }
 p {
-    font-size: 1.1rem;
+    font-size: clamp(0.5rem, 5vw, 3rem);
     line-height: 1.5;
     color: #4b4b4b;
-    max-width: 90%;
+    text-align: center;
+    margin: 0 auto;
+ 
 }
 .section-2 h2 {
-    font-size: 3rem;
+    font-size: clamp(1.5rem, 5vw, 3rem);
 }
 
 .section-5 h2 {
-    font-size: 2.6rem;
+    font-size: clamp(1.5rem, 5vw, 3rem);
 }
 
 .section-6{
@@ -125,4 +128,17 @@ p {
     border-radius: 8px;
     margin-top: 2rem;
     font-size: 1.2rem;
+}
+.section-2-content,
+.section-3-content,
+.section-4-content,
+.section-5-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    max-width: clamp(300px, 80%, 800px);
+    gap: 1rem;
+    width: 100vw;
+    margin-top: 2rem;
 }
